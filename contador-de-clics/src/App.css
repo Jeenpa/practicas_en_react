@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  background-color: #1b1b32;
+}
+
+h1{
+  color: white;
+  font-family: Lato, sans-serif;
+  padding-top: 40px;
+}
+
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-principal{
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
